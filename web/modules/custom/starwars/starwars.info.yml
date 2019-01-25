@@ -1,0 +1,5 @@
+name: 'starwars'
+type: module
+description: 'Module Star Wars'
+core: 8.x
+package: 'Custom'

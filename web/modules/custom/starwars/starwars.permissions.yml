@@ -1,0 +1,90 @@
+add starwars_planet entities:
+  title: 'Create new starwars_planet entities'
+
+administer starwars_planet entities:
+  title: 'Administer starwars_planet entities'
+  description: 'Allow to access the administration form to configure starwars_planet entities.'
+  restrict access: true
+
+delete starwars_planet entities:
+  title: 'Delete starwars_planet entities'
+
+edit starwars_planet entities:
+  title: 'Edit starwars_planet entities'
+
+view published starwars_planet entities:
+  title: 'View published starwars_planet entities'
+
+view unpublished starwars_planet entities:
+  title: 'View unpublished starwars_planet entities'
+
+view all starwars_planet revisions:
+  title: 'View all starwars_planet revisions'
+
+revert all starwars_planet revisions:
+  title: 'Revert all starwars_planet revisions'
+  description: 'Role requires permission <em>view starwars_planet revisions</em> and <em>edit rights</em> for starwars_planet entities in question or <em>administer starwars_planet entities</em>.'
+
+delete all starwars_planet revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view starwars_planet revisions</em> and <em>delete rights</em> for starwars_planet entities in question or <em>administer starwars_planet entities</em>.'
+add starship entities:
+  title: 'Create new Starship entities'
+
+administer starship entities:
+  title: 'Administer Starship entities'
+  description: 'Allow to access the administration form to configure Starship entities.'
+  restrict access: true
+
+delete starship entities:
+  title: 'Delete Starship entities'
+
+edit starship entities:
+  title: 'Edit Starship entities'
+
+view published starship entities:
+  title: 'View published Starship entities'
+
+view unpublished starship entities:
+  title: 'View unpublished Starship entities'
+
+view all starship revisions:
+  title: 'View all Starship revisions'
+
+revert all starship revisions:
+  title: 'Revert all Starship revisions'
+  description: 'Role requires permission <em>view Starship revisions</em> and <em>edit rights</em> for starship entities in question or <em>administer starship entities</em>.'
+
+delete all starship revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Starship revisions</em> and <em>delete rights</em> for starship entities in question or <em>administer starship entities</em>.'
+add people entity entities:
+  title: 'Create new People entity entities'
+
+administer people entity entities:
+  title: 'Administer People entity entities'
+  description: 'Allow to access the administration form to configure People entity entities.'
+  restrict access: true
+
+delete people entity entities:
+  title: 'Delete People entity entities'
+
+edit people entity entities:
+  title: 'Edit People entity entities'
+
+view published people entity entities:
+  title: 'View published People entity entities'
+
+view unpublished people entity entities:
+  title: 'View unpublished People entity entities'
+
+view all people entity revisions:
+  title: 'View all People entity revisions'
+
+revert all people entity revisions:
+  title: 'Revert all People entity revisions'
+  description: 'Role requires permission <em>view People entity revisions</em> and <em>edit rights</em> for people entity entities in question or <em>administer people entity entities</em>.'
+
+delete all people entity revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view People entity revisions</em> and <em>delete rights</em> for people entity entities in question or <em>administer people entity entities</em>.'

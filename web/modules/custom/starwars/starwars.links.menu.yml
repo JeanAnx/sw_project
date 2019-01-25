@@ -1,0 +1,42 @@
+
+# starwars_planet menu items definition
+entity.starwars_planet.collection:
+  title: 'starwars_planet list'
+  route_name: entity.starwars_planet.collection
+  description: 'List starwars_planet entities'
+  parent: system.admin_structure
+  weight: 100
+
+starwars_planet.admin.structure.settings:
+  title: 'starwars_planet settings'
+  description: 'Configure starwars_planet entities'
+  route_name: starwars_planet.settings
+  parent: system.admin_structure
+
+# Starship menu items definition
+entity.starship.collection:
+  title: 'Starship list'
+  route_name: entity.starship.collection
+  description: 'List Starship entities'
+  parent: system.admin_structure
+  weight: 100
+
+starship.admin.structure.settings:
+  title: 'Starship settings'
+  description: 'Configure Starship entities'
+  route_name: starship.settings
+  parent: system.admin_structure
+
+# People entity menu items definition
+entity.people_entity.collection:
+  title: 'People entity list'
+  route_name: entity.people_entity.collection
+  description: 'List People entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+people_entity.admin.structure.settings:
+  title: 'People entity settings'
+  description: 'Configure People entity entities'
+  route_name: people_entity.settings
+  parent: system.admin_structure

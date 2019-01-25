@@ -1,0 +1,81 @@
+# starwars_planet routing definition
+starwars_planet.settings_tab:
+  route_name: starwars_planet.settings
+  title: 'Settings'
+  base_route: starwars_planet.settings
+
+entity.starwars_planet.canonical:
+  route_name: entity.starwars_planet.canonical
+  base_route: entity.starwars_planet.canonical
+  title: 'View'
+
+entity.starwars_planet.edit_form:
+  route_name: entity.starwars_planet.edit_form
+  base_route: entity.starwars_planet.canonical
+  title: 'Edit'
+
+entity.starwars_planet.version_history:
+  route_name: entity.starwars_planet.version_history
+  base_route: entity.starwars_planet.canonical
+  title: 'Revisions'
+
+entity.starwars_planet.delete_form:
+  route_name:  entity.starwars_planet.delete_form
+  base_route:  entity.starwars_planet.canonical
+  title: Delete
+  weight: 10
+
+# Starship routing definition
+starship.settings_tab:
+  route_name: starship.settings
+  title: 'Settings'
+  base_route: starship.settings
+
+entity.starship.canonical:
+  route_name: entity.starship.canonical
+  base_route: entity.starship.canonical
+  title: 'View'
+
+entity.starship.edit_form:
+  route_name: entity.starship.edit_form
+  base_route: entity.starship.canonical
+  title: 'Edit'
+
+entity.starship.version_history:
+  route_name: entity.starship.version_history
+  base_route: entity.starship.canonical
+  title: 'Revisions'
+
+entity.starship.delete_form:
+  route_name:  entity.starship.delete_form
+  base_route:  entity.starship.canonical
+  title: Delete
+  weight: 10
+
+# People entity routing definition
+people_entity.settings_tab:
+  route_name: people_entity.settings
+  title: 'Settings'
+  base_route: people_entity.settings
+
+entity.people_entity.canonical:
+  route_name: entity.people_entity.canonical
+  base_route: entity.people_entity.canonical
+  title: 'View'
+
+entity.people_entity.edit_form:
+  route_name: entity.people_entity.edit_form
+  base_route: entity.people_entity.canonical
+  title: 'Edit'
+
+entity.people_entity.version_history:
+  route_name: entity.people_entity.version_history
+  base_route: entity.people_entity.canonical
+  title: 'Revisions'
+
+entity.people_entity.delete_form:
+  route_name:  entity.people_entity.delete_form
+  base_route:  entity.people_entity.canonical
+  title: Delete
+  weight: 10
+
