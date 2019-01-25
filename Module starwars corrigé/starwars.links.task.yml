@@ -1,0 +1,81 @@
+# People routing definition
+starwars_people.settings_tab:
+  route_name: starwars_people.settings
+  title: 'Settings'
+  base_route: starwars_people.settings
+
+entity.starwars_people.canonical:
+  route_name: entity.starwars_people.canonical
+  base_route: entity.starwars_people.canonical
+  title: 'View'
+
+entity.starwars_people.edit_form:
+  route_name: entity.starwars_people.edit_form
+  base_route: entity.starwars_people.canonical
+  title: 'Edit'
+
+entity.starwars_people.version_history:
+  route_name: entity.starwars_people.version_history
+  base_route: entity.starwars_people.canonical
+  title: 'Revisions'
+
+entity.starwars_people.delete_form:
+  route_name:  entity.starwars_people.delete_form
+  base_route:  entity.starwars_people.canonical
+  title: Delete
+  weight: 10
+
+# Planet routing definition
+starwars_planet.settings_tab:
+  route_name: starwars_planet.settings
+  title: 'Settings'
+  base_route: starwars_planet.settings
+
+entity.starwars_planet.canonical:
+  route_name: entity.starwars_planet.canonical
+  base_route: entity.starwars_planet.canonical
+  title: 'View'
+
+entity.starwars_planet.edit_form:
+  route_name: entity.starwars_planet.edit_form
+  base_route: entity.starwars_planet.canonical
+  title: 'Edit'
+
+entity.starwars_planet.version_history:
+  route_name: entity.starwars_planet.version_history
+  base_route: entity.starwars_planet.canonical
+  title: 'Revisions'
+
+entity.starwars_planet.delete_form:
+  route_name:  entity.starwars_planet.delete_form
+  base_route:  entity.starwars_planet.canonical
+  title: Delete
+  weight: 10
+
+# Starship routing definition
+starwars_starship.settings_tab:
+  route_name: starwars_starship.settings
+  title: 'Settings'
+  base_route: starwars_starship.settings
+
+entity.starwars_starship.canonical:
+  route_name: entity.starwars_starship.canonical
+  base_route: entity.starwars_starship.canonical
+  title: 'View'
+
+entity.starwars_starship.edit_form:
+  route_name: entity.starwars_starship.edit_form
+  base_route: entity.starwars_starship.canonical
+  title: 'Edit'
+
+entity.starwars_starship.version_history:
+  route_name: entity.starwars_starship.version_history
+  base_route: entity.starwars_starship.canonical
+  title: 'Revisions'
+
+entity.starwars_starship.delete_form:
+  route_name:  entity.starwars_starship.delete_form
+  base_route:  entity.starwars_starship.canonical
+  title: Delete
+  weight: 10
+

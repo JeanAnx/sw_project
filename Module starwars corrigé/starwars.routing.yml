@@ -1,0 +1,37 @@
+
+starwars.stawars_add_people:
+  path: '/starwars/formulaire'
+  defaults:
+    _form: '\Drupal\starwars\Form\AddPeople'
+    _title: 'Ajouter un personnage'
+  requirements:
+    _access: 'TRUE'
+  
+
+starwars.starwars_api:
+  path: '/admin/config/starwars/starwarsapi'
+  defaults:
+    _form: '\Drupal\starwars\Form\StarwarsApi'
+    _title: "Configuration de l'API SWAPI"
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
+
+starwars.listing_people_controller_list:
+  path: '/starwars/people'
+  defaults:
+    _controller: '\Drupal\starwars\Controller\ListingPeopleController::listing'
+    _title: 'Liste des personnages'
+  requirements:
+    _permission: 'access content'
+
+starwars.mon_formdetest:
+  path: '/starwars/form/mon_formdetest'
+  defaults:
+    _form: '\Drupal\starwars\Form\MonFormdetest'
+    _title: 'MonFormdetest'
+  requirements:
+    _access: 'TRUE'
+  

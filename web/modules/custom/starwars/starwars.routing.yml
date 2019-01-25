@@ -1,0 +1,9 @@
+
+starwars.people_form:
+  path: '/starwars/form/people'
+  defaults:
+    _form: '\Drupal\starwars\Form\PeopleForm'
+    _title: 'PeopleForm'
+  requirements:
+    _access: 'TRUE'
+  

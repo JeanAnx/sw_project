@@ -1,0 +1,4 @@
+services:
+  starwars.service:
+    class: Drupal\starwars\Service\Starwars
+    arguments: []

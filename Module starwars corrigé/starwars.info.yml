@@ -1,0 +1,5 @@
+name: 'Star Wars'
+type: module
+description: "Module basé sur l'api swapi"
+core: 8.x
+package: 'Star Wars'

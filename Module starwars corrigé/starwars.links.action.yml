@@ -1,0 +1,15 @@
+entity.starwars_people.add_form:
+  route_name: entity.starwars_people.add_form
+  title: 'Add People'
+  appears_on:
+    - entity.starwars_people.collection
+entity.starwars_planet.add_form:
+  route_name: entity.starwars_planet.add_form
+  title: 'Add Planet'
+  appears_on:
+    - entity.starwars_planet.collection
+entity.starwars_starship.add_form:
+  route_name: entity.starwars_starship.add_form
+  title: 'Add Starship'
+  appears_on:
+    - entity.starwars_starship.collection

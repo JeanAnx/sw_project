@@ -1,0 +1,28 @@
+{# Parcours des personnages #}
+{% for people in peoples %}
+    <div class="row">
+        <div class="col-md-3">
+            <h3>Personnage</h3>
+            <p>Nom : {{ people.name }}</p>
+            <p>Espece : {{ people.specie }}</p>
+            <p>Sexe : {{ people.gender }}</p>
+        </div>
+        <div class="col-md-3">
+            <h3>Planète</h3>
+            <p>Nom : {{ people.planet.name }}</p>
+            {# Transforme le tableau de terrain en chaine assemblé par une virgule #}
+            <p>Terrains : {{ people.planet.terrains | join(', ') }}</p>
+            <p>Climats : {{ people.planet.climats | join(', ') }}</p>
+            <p>Population : {{ people.planet.population }}</p>
+        </div>
+        <div class="col-md-6">
+            <h3>Vaisseaux</h3>
+            {# Parcours des vaisseaux #}
+            {% for starship in people.starships %}
+            <p>{{ starship.name}} ({{ starship.model }})</p>
+            {% endfor %}
+        </div>
+    </div>
+    <hr />
+{% endfor %}
+
