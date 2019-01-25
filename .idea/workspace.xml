@@ -24862,12 +24862,13 @@
       <change afterPath="$PROJECT_DIR$/web/modules/custom/starwars/src/PlanetStorageInterface.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/modules/custom/starwars/src/PlanetTranslationHandler.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/modules/custom/starwars/src/Service/StarwarsInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/starwars/src/Service/StarwarsService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/starwars/src/starwars.services.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/modules/custom/starwars/starwars.info.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/modules/custom/starwars/starwars.links.action.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/modules/custom/starwars/starwars.links.menu.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/modules/custom/starwars/starwars.links.task.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/modules/custom/starwars/starwars.module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/starwars/starwars.permissions.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/modules/custom/starwars/starwars_planet.page.inc" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/modules/custom/starwars/templates/starwars_planet.html.twig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/profiles/.gitkeep" afterDir="false" />
@@ -24989,29 +24990,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/modules/custom/starwars/starwars.module">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/modules/custom/starwars/src/Service/StarwarsInterface.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/modules/custom/starwars/src/Service/StarwarsService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/modules/custom/starwars/src/Entity/Planet.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="89" column="36" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+            <state relative-caret-position="585">
+              <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -25050,6 +25042,8 @@
         <option value="$PROJECT_DIR$/web/modules/custom/taxonomy_sw/taxonomy_sw.info.yml" />
         <option value="$PROJECT_DIR$/web/modules/custom/taxonomy_sw/taxonomy_sw.install" />
         <option value="$PROJECT_DIR$/web/modules/custom/starwars/src/Service/StarwarsInterface.php" />
+        <option value="$PROJECT_DIR$/web/modules/custom/starwars/src/starwars.services.yml" />
+        <option value="$PROJECT_DIR$/web/modules/custom/starwars/src/Service/StarwarsService.php" />
       </list>
     </option>
   </component>
@@ -25247,7 +25241,7 @@
               <item name="custom" type="462c0819:PsiDirectoryNode" />
               <item name="starwars" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -25289,12 +25283,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548404958889</updated>
-      <workItem from="1548404960003" duration="4132000" />
+      <workItem from="1548404960003" duration="5887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4132000" />
+    <option name="totallyTimeSpent" value="5887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="990" extended-state="6" />
@@ -25339,20 +25333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/starwars/starwars.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/starwars/src/Service/StarwarsInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -25363,9 +25343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/starwars/starwars.permissions.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/modules/custom/starwars/src/Entity/PlanetInterface.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -25374,8 +25351,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/modules/custom/starwars/src/Entity/Planet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="89" column="36" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+        <state relative-caret-position="585">
+          <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/starwars/starwars.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/starwars/starwars.permissions.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/starwars/src/starwars.services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/starwars/src/Service/StarwarsInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/starwars/src/Service/StarwarsService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
         </state>
       </provider>
     </entry>
